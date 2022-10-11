@@ -58,7 +58,7 @@ AFRAME.registerComponent('video-controls', {
 		<video id="video" loop="true" src="video/sintel.mp4" autoplay></video>
 	</a-assets>
 
-	<a-entity movement-controls="speed: 0.1; fly: false;" position="0 0 0">
+	<a-entity movement-controls="speed: 0.1; fly: true;" position="0 0 0">
 		<a-entity camera position="0 1.5 1" look-controls></a-entity>
 		<a-entity id="leftHand" laser-controls="hand: left" raycaster="" line="color: #FF00FF"></a-entity>
 		<a-entity id="rightHand" laser-controls="hand: right" raycaster="" line="color: #FFFF00"></a-entity>
@@ -183,7 +183,7 @@ AFRAME.registerComponent('video-controls', {
 	  	
 	 </a-entity>
 	
-	   <a-link position="7 1 7.5" scale="1.2 1.2 1.2"
+	   <!--<a-link position="7 1 7.5" scale="1.2 1.2 1.2"
 	 		href="bac-pro.html" title="DECOUVRIR LES FORMATIONS BAC-PRO" image="#mac">
 	 	 </a-link>		
 	    <a-link position="-7 1 7.5" scale="1.2 1.2 1.2"
@@ -194,7 +194,7 @@ AFRAME.registerComponent('video-controls', {
 	 	 </a-link>
 	    <a-link position="-7 1 -7.5" scale="1.2 1.2 1.2"
 	 		href="bac-pro.html" title="DECOUVRIR LES FORMATIONS GRETA" image="#mac">
-	 	 </a-link>	
+	 	 </a-link>-->	
 	   
 	  <a-entity id="centre" scale="0.08 0.08 0.08" position="0 6.5 0" rotation="+90 0 +180" obj-model="obj: #centre" material="src: #btexture"</a-entity>
 		
